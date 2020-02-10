@@ -1,0 +1,89 @@
+{"document" : {
+  "type" : "rulebook",
+  "year" : "2020",
+  "federation" : "Volleyball Canada",
+  "section" : {
+    "number" : "1",
+    "title" : "The Game",
+    "rules" : [
+      {
+        "number" : "1",
+        "title" : "Playing Area",
+        "sub_rules" : [
+          {
+            "number" : "1",
+            "text" : "The referee must check the dimensions and boundary lines prior to the start of a match. The first\nreferee must check the dimensions of the court. Should an irregularity be noticed, the referee must\nimmediately point it out and ensure that it is corrected. The first referee must check:",
+            "sub_sub_rules" : [
+              {
+                "number" : "1",
+                "text" : "Whether the lines are 5 cm wide, (no more and no less);"
+              },
+              {
+                "number" : "2",
+                "text" : "The length of the lines and diagonals (12.73 m each on both courts)"
+              },
+              {
+                "number" : "3",
+                "text" : "That the colour of the lines is distinct from the colours of the court and the free zone;"
+              },
+              {
+                "number" : "4",
+                "text" : ". In the case of competition other than World, FIVB or Official one, if there are lines of other courts on the playing area, the boundary lines of the actual playing court must be of a different colour from all others;"
+              },
+              {
+                "number" : "5",
+                "text" : "Official warm-up areas are to be designated before the match begins. Warm-up areas are to be 3m x 3m and are to be located in the bench side corners of the playing area, outside the free zone (Diagram 1a in the VC Rulebook)."
+              }
+            ]
+          },
+          {
+            "number" : "2",
+            "text" : "The centre line counts for both sides of the court (Rule 1.3.3)."
+          },
+          {
+            "number" : "3",
+            "text" : "The players have the right to play the ball beyond their free zone (except the service). Therefore, a\nball may be recovered from any point outside their free zone. The situation and the rule are different\nin the opponent's free zone (Rule 10.1.2)."
+          },
+          {
+            "number" : "4",
+            "text" : "For a jump service, the server may start from outside the service zone, but the take-off must be in the\nservice zone."
+          },
+          {
+            "number" : "5",
+            "text" : "When the server comes to the left side of the service zone to serve, especially for jump service, the\nline judge there (no. 1 or no. 3) must step back."
+          }
+        ]
+      },
+      {
+        "number" : "2",
+        "title" : "The Net And Posts",
+        "sub_rules" : [
+          {
+            "number" : "1",
+            "text" : "Due to the elasticity of the net, the first referee should check whether it is correctly tightened. By\nthrowing a ball into the net, he/she can see whether it rebounds correctly. The ball must bounce off\nthe correctly taut net. The material of the net must not be too elastic (e.g. rubber). If the net bulges, it\ncannot be used. The vertical plane of the net must be perpendicular to the playing surface and along\nthe axis of the centre line. The antennae must be placed on the opposite sides of the net on the\nposition 4 of each side, above the outer edge of the side lines according to Diagram 3 in the VC\nRulebook to make each court as identical as possible."
+          },
+          {
+            "number" : "2",
+            "text" : "A match shall not be played if the mesh of the net is torn. (See also Rule 10.3.2)"
+          },
+          {
+            "number" : "3",
+            "text" : "The second referee must measure the height of the net before the “toss” by means of a measuring\nrod (if possible metallic) designed for this purpose and belonging to the required auxiliary equipment\nof the court. On the rod should be the marked heights of 243/245 cm and 224/226 cm for men and\nwomen, respectively. The first referee remains near the second referee during this verification to\nsupervise the measurement. Net heights for Volleyball Canada Youth competitions should also be\nmarked. (See Rule 2.1.1 for net heights)"
+          },
+          {
+            "number" : "4",
+            "text" : "During the match (and especially at the beginning of each set), the corresponding line judges must\ncheck whether the side bands are exactly perpendicular to the playing surface and over the sidelines\nand whether the antennae are just at the outer edge of each side band. If this is not the case, they\nshould be readjusted immediately."
+          },
+          {
+            "number" : "5",
+            "text" : "Before the match (before the official warm-up) and during the game, the referees must check that the\nposts and the referee’s stand present no danger to the players (e.g., protruding parts of the posts\naround the winches, cables fixing the posts, etc.)."
+          },
+          {
+            "number" : "6",
+            "text" : "Additional Equipment:\nBenches for the teams Spare Net Rod to measure the net\nBall pressure gauge Ball Pump Stand for 5 match balls\nScoreboard (at scorer’s table) Electronic buzzer (at scorer’s 2 reserve antennae\ntable)\nIn case of FIVB competition:\nNumbered paddles (no. 1-20) 6 mops 8 towels (40x40cm or 40x80cm)\n2 penalty chairs in each area A libero bib/jacket Stand for 5 match balls\nA buzzer with light for each area A thermometer A hydrometer\nElectronic & manual scoreboard\nThe electric buzzers with red/yellow lamps are used to signal requests for regular game interruptions\n(timeouts and exceptional substitutions or a substitution caused by discrepancy between the line-up\nsheet and the line up on the court). The scorer’s table buzzer is used to signal rotation faults, Libero\nfaults, substitutions and technical time outs. The organizer must also provide two reserve antennae\nand a net under the scorer's table."
+          }
+        ]
+      }
+    ]
+  }
+}}
