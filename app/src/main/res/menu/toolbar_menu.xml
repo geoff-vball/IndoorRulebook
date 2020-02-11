@@ -5,6 +5,12 @@
     tools:context=".MainActivity"
     android:id="@+id/toolbar_menu">
 
+    <item android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        tools:ignore="HardcodedText"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/rulebook"
         android:icon="@drawable/ic_rulebook"
