@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:id="@+id/bottom_navigation_menu">
+
+    <item
+        android:id="@+id/navigation_rulebook"
+        android:icon="@drawable/ic_rulebook"
+        app:showAsAction="always"
+        android:title="Rulebook"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/navigation_guidelines"
+        android:icon="@drawable/ic_guidelines"
+        app:showAsAction="always"
+        android:title="Guidelines"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/navigation_casebook"
+        android:icon="@drawable/ic_casebook"
+        app:showAsAction="always"
+        android:title="Casebook"
+        tools:ignore="AlwaysShowAction,HardcodedText" />
+</menu>

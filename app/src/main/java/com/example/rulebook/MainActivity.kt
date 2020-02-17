@@ -7,6 +7,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import com.example.rulebook.documentModels.RulebookModel
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
 
@@ -20,6 +21,23 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setSupportActionBar(findViewById(R.id.my_toolbar))
         supportActionBar?.setDisplayShowTitleEnabled(false);
+        val bottomNavigation: BottomNavigationView = findViewById(R.id.bottom_navigation)
+        bottomNavigation.setOnNavigationItemSelectedListener(onNavigationSelectedListener)
+    }
+
+    private val onNavigationSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
+        when (item.itemId) {
+            R.id.navigation_rulebook -> {
+                return@OnNavigationItemSelectedListener true
+            }
+            R.id.navigation_casebook -> {
+                return@OnNavigationItemSelectedListener true
+            }
+            R.id.navigation_guidelines -> {
+                return@OnNavigationItemSelectedListener true
+            }
+        }
+        false
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
