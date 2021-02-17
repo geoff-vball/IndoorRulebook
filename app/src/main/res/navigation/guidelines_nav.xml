@@ -10,7 +10,7 @@
 
     <fragment
         android:id="@+id/guidelinesScreen"
-        android:name="com.example.rulebook.GuidelinesFragment"
+        android:name="com.gstuart.rulebook.GuidelinesFragment"
         android:label="Guidelines"
         tools:layout="@layout/fragment_guidelines">
     </fragment>

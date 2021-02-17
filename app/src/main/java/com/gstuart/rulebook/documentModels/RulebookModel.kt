@@ -1,4 +1,4 @@
-package com.example.rulebook.documentModels
+package com.gstuart.rulebook.documentModels
 
 data class RulebookModel (
     val year : String,

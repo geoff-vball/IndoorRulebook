@@ -1,4 +1,4 @@
-package com.example.rulebook
+package com.gstuart.rulebook
 
 import android.os.Bundle
 import android.view.Menu
@@ -6,17 +6,16 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import androidx.navigation.NavController
-import androidx.navigation.findNavController
 import androidx.navigation.ui.setupActionBarWithNavController
-import com.example.rulebook.documentModels.RulebookModel
+import com.gstuart.rulebook.documentModels.RulebookModel
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.example.rulebook.utils.setupWithNavController
+import com.gstuart.rulebook.utils.setupWithNavController
 
 class MainActivity : AppCompatActivity() {
 
     // This has to be initialized lazily because
     private val rulebookModel : RulebookModel by lazy {
-        applicationContext.jsonToClass<RulebookModel>(R.raw.rulebook)
+        applicationContext.jsonToClass(R.raw.rulebook)
     }
 
     private var currentNavController: LiveData<NavController>? = null
@@ -26,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         setSupportActionBar(findViewById(R.id.search_toolbar))
-        supportActionBar?.setDisplayShowTitleEnabled(false);
+        supportActionBar?.setDisplayShowTitleEnabled(false)
 
         setupBottomNavigationBar()
     }
@@ -50,7 +49,7 @@ class MainActivity : AppCompatActivity() {
         )
 
         // Whenever the selected controller changes, setup the action bar.
-        controller.observe(this, Observer { navController ->
+        controller.observe(this, { navController ->
             setupActionBarWithNavController(navController)
         })
         currentNavController = controller

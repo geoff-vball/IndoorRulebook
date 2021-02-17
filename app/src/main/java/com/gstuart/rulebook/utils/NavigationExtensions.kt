@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.rulebook.utils
+package com.gstuart.rulebook.utils
 
 import android.content.Intent
 import android.util.SparseArray
@@ -25,8 +25,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
-import com.example.rulebook.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.gstuart.rulebook.R
 
 /**
  * Manages the various graphs needed for a [BottomNavigationView].

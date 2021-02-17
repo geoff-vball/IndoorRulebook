@@ -1,4 +1,4 @@
-package com.example.rulebook
+package com.gstuart.rulebook
 
 import android.os.Bundle
 import android.view.LayoutInflater

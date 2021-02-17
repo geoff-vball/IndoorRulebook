@@ -10,7 +10,7 @@
 
     <fragment
         android:id="@+id/casebookScreen"
-        android:name="com.example.rulebook.CasebookFragment"
+        android:name="com.gstuart.rulebook.CasebookFragment"
         android:label="Casebook"
         tools:layout="@layout/fragment_casebook">
     </fragment>
